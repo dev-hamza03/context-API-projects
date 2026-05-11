@@ -1,0 +1,43 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* light theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* dark theme */
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* full height */
+body, html {
+  height: 100%;
+}
+
+/* center button */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+button:active {
+    scale: .96;
+}
